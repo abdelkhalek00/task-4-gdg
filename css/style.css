@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.clear-fix{
+    clear: both;
+}
+section{
+    background-image: url(../imgs/pexels-gochrisgoxyz-1477166.jpg);
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section .logo{
+    text-align: center;
+}
+section .logo img{
+    width: 15%;
+}
+.cards{
+    width: 85%;
+    margin: auto;
+}
+.card{
+    float: left;
+    /* background-color: aqua; */
+    width: 33.33333%;
+    padding: 0 20px;
+}
+.card .inner{
+    text-align: center;
+}
+.card .inner img{
+    width: 100%;
+}
+.price{
+    width: 80%;
+    margin: auto;
+    padding: 12px 40px;
+}
+.price .offer{
+    float: left;
+    color: white;
+}
+.price .past{
+    float: right;
+    color: gray;
+}
+button{
+    border-radius: 20px;
+    background-color: #4682B4;
+    padding: 10px 15px;
+    border: 0;
+    color: white;
+}
